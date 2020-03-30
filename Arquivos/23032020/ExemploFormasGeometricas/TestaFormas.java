@@ -6,7 +6,6 @@ public class TestaFormas {
 		FormaGeometrica f = new FormaGeometrica();
 		
 		System.out.println(f);
-/*		
 		Retangulo r = new Retangulo();
 		r.setLadoA(3);
 		r.setLadoB(4);
@@ -34,7 +33,6 @@ public class TestaFormas {
 		q.setLadoB(3);
 		
 		System.out.println("Lado a = 3 : " + q);
-*/		
 	}
 	
 }

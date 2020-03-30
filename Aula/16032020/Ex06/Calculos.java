@@ -6,6 +6,7 @@ public class Calculos {
     private String nome;
     private int idade;
     private int diasDVida;
+    private float bisexto;
 
     public String getNome() {
         return nome;
@@ -28,7 +29,8 @@ public class Calculos {
     }
 
     private int setDiasDVida() {
-        this.diasDVida = (idade*365);
+        this.bisexto = this.idade/4;
+        this.diasDVida = ((getIdade()*365) + this.bisexto);
         return this.diasDVida;
     }
 

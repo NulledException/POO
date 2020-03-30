@@ -1,8 +1,5 @@
 import java.util.Scanner;
 
-/**
- * DiasDeVida
- */
 public class DiasDeVida {
 
     public static void main(String[] args) {
