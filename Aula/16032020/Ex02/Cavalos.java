@@ -14,10 +14,10 @@ public class Cavalos {
         cavalosComprados = in.nextInt();
         foo.setCavalos(cavalosComprados);
 
-        
-        System.out.println("Voce vai precisar de " + foo.getFerraduras() + " ferraduras para os seus " + foo.getCavalos() + " cavalos.");
+        System.out.println("Voce vai precisar de " + foo.getFerraduras() + " ferraduras para os seus "
+                + foo.getCavalos() + " cavalos.");
 
         in.close();
     }
-    
+
 }

@@ -9,23 +9,28 @@ public class Calculos {
     public float result;
 
     public void setAltura(float altura) {
-        this.altura = altura;   
+        this.altura = altura;
     }
+
     public void setLargura(float largura) {
         this.largura = largura;
     }
-    public float getAltura(){
+
+    public float getAltura() {
         return this.altura;
     }
-    public float getLargura(){
+
+    public float getLargura() {
         return this.largura;
     }
+
     private float calcArea(float largura, float altura) {
         this.areaTotal = this.largura * this.altura;
         return this.areaTotal;
     }
+
     public float getArea() {
         this.result = calcArea(this.largura, this.altura);
-        return this.result;        
+        return this.result;
     }
 }

@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Losango {
 
     public static void main(String[] args) {
-        
+
         Calculos foo = new Calculos();
         float diagonalMaior;
         float diagonalMenor;

@@ -20,8 +20,6 @@ public class Salario {
         salFuncionario = in.nextFloat();
         foo.setSalFuncionario(salFuncionario);
 
-
-        
         System.out.println("O funcionario em questão recebe " + foo.getQntdSalMin() + " salarios minimos");
 
         in.close();

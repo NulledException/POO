@@ -19,9 +19,8 @@ public class Hipotenusa {
         catB = in.nextFloat();
         foo.setCatB(catB);
 
-
-        
-        System.out.println("A hipotenusa dos cateto a = " + foo.getCatA() + " e cateto b = " + foo.getCatB() + " é igual a = " + foo.getHip());
+        System.out.println("A hipotenusa dos cateto a = " + foo.getCatA() + " e cateto b = " + foo.getCatB()
+                + " é igual a = " + foo.getHip());
 
         in.close();
     }

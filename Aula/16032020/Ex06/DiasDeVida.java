@@ -7,12 +7,12 @@ public class DiasDeVida {
         Calculos foo = new Calculos();
         int idade;
         String nome;
-        
+
         Scanner in = new Scanner(System.in);
         System.out.println("Digite seu nome: ");
         nome = in.nextLine();
         foo.setNome(nome);
-        
+
         System.out.println("Digite sua idade: ");
         idade = in.nextInt();
         foo.setIdade(idade);

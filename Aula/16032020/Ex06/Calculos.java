@@ -29,8 +29,8 @@ public class Calculos {
     }
 
     private int setDiasDVida() {
-        this.bisexto = this.idade/4;
-        this.diasDVida = ((getIdade()*365) + this.bisexto);
+        this.bisexto = this.idade / 4;
+        this.diasDVida = ((getIdade() * 365) + this.bisexto);
         return this.diasDVida;
     }
 
