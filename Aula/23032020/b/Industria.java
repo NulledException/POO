@@ -1,6 +1,6 @@
 package b;
 
-public class Industria extends PessoaJuridica{
+public class Industria extends PessoaJuridica {
 
     private String ramoAtividade;
 
@@ -12,8 +12,8 @@ public class Industria extends PessoaJuridica{
         this.ramoAtividade = ramoAtividade;
     }
 
-	@Override
-	public String toString() {
-		return "Industria [ramoAtividade=" + ramoAtividade + "]";
-	}
+    @Override
+    public String toString() {
+        return "Industria [ramoAtividade=" + ramoAtividade + "]";
+    }
 }

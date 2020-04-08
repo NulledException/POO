@@ -2,8 +2,8 @@ package Ex02;
 
 public class Teste {
     public static void main(String[] args) {
-        
-        Ingresso i1 = new Ingresso ();
+
+        Ingresso i1 = new Ingresso();
 
         i1.setValor(20.20);
 

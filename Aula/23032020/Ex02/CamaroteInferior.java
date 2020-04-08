@@ -1,7 +1,7 @@
 package Ex02;
 
-public class CamaroteInferior extends VIP{
-    
+public class CamaroteInferior extends VIP {
+
     private String localizacao;
 
     public String getLocalizacao() {

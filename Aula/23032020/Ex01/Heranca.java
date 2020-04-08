@@ -13,7 +13,7 @@ public class Heranca {
         System.out.println(a1.getRaca());
         System.out.println(a1.caminha());
 
-        Cachorro c1 = new Cachorro ();
+        Cachorro c1 = new Cachorro();
 
         c1.setNome("Cachorro[0]");
         c1.setRaca("Vira-lata");
@@ -27,7 +27,7 @@ public class Heranca {
 
         g1.setNome("Gato[0]");
         g1.setRaca("Indefinida");
-        
+
         System.out.println("\n" + g1.getNome());
         System.out.println(g1.getRaca());
         System.out.println(g1.caminha());

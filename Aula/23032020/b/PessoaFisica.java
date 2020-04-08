@@ -1,6 +1,6 @@
 package b;
 
-public class PessoaFisica extends Pessoa{
+public class PessoaFisica extends Pessoa {
 
     private String CPF;
 
@@ -12,8 +12,8 @@ public class PessoaFisica extends Pessoa{
         CPF = cPF;
     }
 
-	@Override
-	public String toString() {
-		return "PessoaFisica [CPF=" + CPF + "]";
-	}
+    @Override
+    public String toString() {
+        return "PessoaFisica [CPF=" + CPF + "]";
+    }
 }

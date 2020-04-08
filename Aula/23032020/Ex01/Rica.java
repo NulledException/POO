@@ -1,6 +1,6 @@
 package Ex01;
 
-public class Rica extends Pessoa{
+public class Rica extends Pessoa {
 
     private double dinheiro;
 

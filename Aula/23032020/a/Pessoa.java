@@ -27,14 +27,13 @@ public class Pessoa {
     public void setNome(final String nome) {
         this.nome = nome;
     }
-    
+
     public static int getLastId() {
         return lastId;
     }
-    
-    public String toString(){
-        return "id = "+ id + " nome = " + nome;
-    }
 
+    public String toString() {
+        return "id = " + id + " nome = " + nome;
+    }
 
 }

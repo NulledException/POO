@@ -1,6 +1,6 @@
 package Ex03;
 
-public class Velho extends Imovel{
+public class Velho extends Imovel {
 
     private double descontoPreco;
 

@@ -25,5 +25,5 @@ public class Imovel {
     public String toString() {
         return "Imovel [endereco=" + endereco + ", preco=" + getPreco() + "]";
     }
-    
+
 }

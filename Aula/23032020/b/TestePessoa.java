@@ -20,9 +20,9 @@ public class TestePessoa {
         i1.setCNPJ("15.698.547/0008-70");
         i1.setRamoAtividade("desenvolvedor");
 
-        System.out.println(i1.pessoaString()+i1);
-        System.out.println(j1.pessoaString()+j1);
-        System.out.println(f1.pessoaString()+f1);
-        
+        System.out.println(i1.pessoaString() + i1);
+        System.out.println(j1.pessoaString() + j1);
+        System.out.println(f1.pessoaString() + f1);
+
     }
 }

@@ -1,6 +1,6 @@
 package Ex02;
 
-public class CamaroteSuperior extends CamaroteInferior{
+public class CamaroteSuperior extends CamaroteInferior {
 
     @Override
     public void setValor(double valor) {

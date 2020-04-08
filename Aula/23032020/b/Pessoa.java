@@ -24,5 +24,5 @@ public abstract class Pessoa {
     public String pessoaString() {
         return "Pessoa [nome=" + this.nome + ", telefone=" + this.telefone + "]";
     }
-    
+
 }

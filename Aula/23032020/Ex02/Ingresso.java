@@ -16,5 +16,5 @@ public class Ingresso {
     public String toString() {
         return "Ingresso [valor=" + valor + "]";
     }
-    
+
 }
