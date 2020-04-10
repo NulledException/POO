@@ -14,8 +14,5 @@ public class TestePessoa {
 
         System.out.println(foo.getId());
         System.out.println(foo2.getId());
-
-        System.out.println(foo.getLastId());
-        System.out.println(foo2.getLastId());
     }
 }

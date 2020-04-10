@@ -1,8 +1,5 @@
 import java.util.Scanner;
 
-/**
- * Salario
- */
 public class Salario {
 
     public static void main(final String[] args) {
