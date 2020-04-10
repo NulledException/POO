@@ -69,18 +69,20 @@ public class Teste {
             v1.setPreco(700);
             v1.setDescontoPreco(100.0);
             System.out.println("Seu imovel no: " + v1.getEndereco() + ", tem o preco de: " + v1.getPreco());
+        } else {
         }
 
         Administrativo a1 = new Administrativo();
         a1.setNome("Administrativo[0]");
         a1.setNumMatricula(01);
-        System.out.println("\nO assistente administrativo " + a1.getNome() + ", tem o numero de matricula igual a: " + a1.getNumMatricula());
+        System.out.println("\nO assistente administrativo " + a1.getNome() + ", tem o numero de matricula igual a: "
+                + a1.getNumMatricula());
 
-        
         Tecnico t1 = new Tecnico();
         t1.setNome("Tecnico[0]");
         t1.setNumMatricula(02);
-        System.out.println("O assistente tecnico " + t1.getNome() + ", tem o numero de matricula igual a: " + t1.getNumMatricula());
+        System.out.println("O assistente tecnico " + t1.getNome() + ", tem o numero de matricula igual a: "
+                + t1.getNumMatricula());
         in.close();
 
     }
