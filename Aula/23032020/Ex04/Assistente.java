@@ -1,5 +1,6 @@
 package Ex04;
 
+//A
 public class Assistente extends Funcionario {
     private int numMatricula;
 
@@ -13,6 +14,6 @@ public class Assistente extends Funcionario {
 
     @Override
     public String toString() {
-        return super.imprimeDados() + " Numero de Matricula=" + numMatricula ;
+        return super.imprimeDados() + " Numero de Matricula=" + numMatricula;
     }
 }

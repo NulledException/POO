@@ -1,5 +1,6 @@
 package Ex03;
 
+//A
 public class Novo extends Imovel {
     private double adicionalPreco;
 

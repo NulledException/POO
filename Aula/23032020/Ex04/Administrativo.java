@@ -1,5 +1,6 @@
 package Ex04;
 
+//B
 public class Administrativo extends Assistente {
     private String turno;
 

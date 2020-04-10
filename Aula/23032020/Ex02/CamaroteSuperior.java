@@ -1,5 +1,6 @@
 package Ex02;
 
+//C
 public class CamaroteSuperior extends CamaroteInferior {
 
     @Override

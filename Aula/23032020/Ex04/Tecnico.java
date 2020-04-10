@@ -1,6 +1,7 @@
 package Ex04;
 
-public class Tecnico extends Assistente{
+//B
+public class Tecnico extends Assistente {
     private double bonusSalarial;
 
     public double getBonusSalarial() {

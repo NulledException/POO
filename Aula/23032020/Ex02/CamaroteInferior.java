@@ -1,5 +1,6 @@
 package Ex02;
 
+//C
 public class CamaroteInferior extends VIP {
 
     private String localizacao;

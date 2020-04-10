@@ -7,14 +7,14 @@ public class Teste {
     public static void main(String[] args) {
 
         int op = 0;
-
+        // A
         Cachorro c1 = new Cachorro();
         c1.setNome("Cachorro[0]");
         System.out.println(c1.late());
         Gato g1 = new Gato();
         g1.setNome("Gato[0]");
         System.out.println(g1.mia());
-
+        // B
         Rica r1 = new Rica();
         r1.setNome("\nRica[0]");
         System.out.println(r1.fazCompras());
@@ -24,7 +24,7 @@ public class Teste {
         Miseravel m1 = new Miseravel();
         m1.setNome("Miseravel[0]");
         System.out.println(m1.mendiga());
-
+        // C
         Scanner in = new Scanner(System.in);
 
         System.out.println("\nDigite:\n1 = Ingresso normal\n2 = Ingresso VIP");
@@ -53,7 +53,7 @@ public class Teste {
             }
         } else {
         }
-
+        // D
         op = 0;
         System.out.println("\nDigite:\n1 = Novo imovel\n2 = Velho imovel");
         op = in.nextInt();
@@ -71,7 +71,7 @@ public class Teste {
             System.out.println("Seu imovel no: " + v1.getEndereco() + ", tem o preco de: " + v1.getPreco());
         } else {
         }
-
+        // E
         Administrativo a1 = new Administrativo();
         a1.setNome("Administrativo[0]");
         a1.setNumMatricula(01);
@@ -83,6 +83,7 @@ public class Teste {
         t1.setNumMatricula(02);
         System.out.println("O assistente tecnico " + t1.getNome() + ", tem o numero de matricula igual a: "
                 + t1.getNumMatricula());
+
         in.close();
 
     }

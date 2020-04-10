@@ -1,5 +1,6 @@
 package Ex02;
 
+//A
 public class VIP extends Ingresso {
 
     @Override

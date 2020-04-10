@@ -1,8 +1,5 @@
 package Ex04;
 
-/**
- * Funcionario
- */
 public class Funcionario {
 
     private String nome;
