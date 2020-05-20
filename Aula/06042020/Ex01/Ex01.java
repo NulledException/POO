@@ -6,23 +6,20 @@ public class Ex01 {
 
         String frase;
         int count;
-
+        int i;
 
         Scanner in = new Scanner(System.in);
 
-        System.out.println("Digite uma frase para a analise:");
+        System.out.println("Digite uma frase para a análise:");
         frase = in.nextLine();
-        
+
         in.close();
 
         System.out.println("\nTamanho: " + frase.length());
 
-
-        System.out.println("Maiusculo: " + frase.toUpperCase());
-
+        System.out.println("Maiúsculo: " + frase.toUpperCase());
 
         count = 0;
-        int i;
         for (i = 0; i <= (frase.length() - 1); i++) {
 
             if (frase.charAt(i) == 'a' || frase.charAt(i) == 'A') {
@@ -40,12 +37,10 @@ public class Ex01 {
         }
         System.out.println("Vogais: " + count);
 
-
         String maiusculo = frase;
         maiusculo = maiusculo.toUpperCase();
-        System.out.println("Comeca com UNI: " + maiusculo.startsWith("UNI"));
+        System.out.println("Começa com UNI: " + maiusculo.startsWith("UNI"));
         System.out.println("Termina com SUL: " + maiusculo.endsWith("SUL"));
-
 
         count = 0;
         for (i = 0; i <= (frase.length() - 1); i++) {
@@ -70,11 +65,20 @@ public class Ex01 {
                 count++;
             } else if (frase.charAt(i) == '9') {
                 count++;
-            } else{
+            } else {
             }
         }
-        System.out.println("Digitos de 0 a 9: " + count);
+        System.out.println("Dígitos de 0 a 9: " + count);
 
+        String contrario = "";
+        for (i = (frase.length() - 1); i >= 0; i--) {
+            contrario = contrario + frase.charAt(i);
+        }
+        if (contrario.equalsIgnoreCase(frase)) {
+            System.out.println("A String é palíndroma");
+        } else {
+            System.out.println("A String não é palíndroma");
+        }
 
     }
 }
