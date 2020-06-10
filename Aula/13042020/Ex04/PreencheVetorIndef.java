@@ -1,3 +1,9 @@
+// Refaça o exercício anterior, para uma quantidade incerta de elementos. Ao final de
+// cada número solicitado ao usuário, o programa deve perguntar se o usuário quer
+// continuar fornecendo números. Quando este não quiser mais, apresente o vetor
+// informado, solicite um número, faça a multiplicação deste pelo vetor e apresente o vetor
+// multiplicado.
+
 import java.util.Scanner;
 
 public class PreencheVetorIndef {
@@ -15,7 +21,7 @@ public class PreencheVetorIndef {
             System.out.println("Voce deseja continuar fornecendo numeros? \"S\" = Sim \"N\" = Não:");
             resposta = in.nextLine();
 
-        } while (resposta.equalsIgnoreCase("s") );
+        } while (resposta.equalsIgnoreCase("s"));
 
         for (int i = 0; i < array.length; i++) {
             System.out.println("Valor na posição " + (i + 1) + " do vetor:" + array[i]);
