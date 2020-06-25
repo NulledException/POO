@@ -7,7 +7,7 @@ public class Questao2 {
         Scanner teclado = new Scanner(System.in);
         try {
             System.out.println("Eu sei dividir");
-            System.err.println("Informe o primeiro valor: ");
+            System.out.println("Informe o primeiro valor: ");
             int x = teclado.nextInt();
             System.out.println("Informe o segundo valor: ");
             int y = teclado.nextInt();
@@ -18,7 +18,7 @@ public class Questao2 {
         } finally {
             teclado.close();
         }
-        
+
         // nesse programa a leitura dos valores deve ser feita, mesmo que para isso o
         // usuário tenha que tentar informar várias vezes os valores na mesma execução
         // do programa.
