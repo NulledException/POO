@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Questao2 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
+
         try {
             System.out.println("Eu sei dividir");
             System.out.println("Informe o primeiro valor: ");
@@ -14,7 +15,7 @@ public class Questao2 {
             double r = (x / y);
             System.out.println("O resultado da divisão é: " + r);
         } catch (Exception e) {
-            System.out.println("Não foi possivel realizara divisão. Tente novamente mais tarde");
+            System.out.println("Tente outro numero: ");
         } finally {
             teclado.close();
         }

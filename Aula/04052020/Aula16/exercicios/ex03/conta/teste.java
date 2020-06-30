@@ -1,4 +1,4 @@
-package conta;
+package Aula16.exercicios.ex03.conta;
 
 public class teste {
     public static void main(String[] args) {
