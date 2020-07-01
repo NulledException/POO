@@ -2,11 +2,11 @@ package exercicio01;
 
 import java.util.Scanner;
 
-public class Main {
+public class teste {
 
     Instituicao ins;
 
-    public Main() {
+    public teste() {
         ins = new Instituicao("UCS");
     }
 
@@ -14,7 +14,7 @@ public class Main {
 
         Scanner in = new Scanner(System.in);
         int opcao;
-        Main main = new Main();
+        teste main = new teste();
         do {
             mostraMenu();
             opcao = in.nextInt();
@@ -22,18 +22,6 @@ public class Main {
                 case 1:
                     System.out.println(main.ins);
                     espera();
-                    break;
-    
-                case 2:
-
-                    break;
-
-                case 3:
-
-                    break;
-
-                case 4:
-
                     break;
 
                 default:
